@@ -1,6 +1,7 @@
 # bot.py
 import discord
-from config import GUILD, TOKEN, CHARACTER_TAGS, GEMINI_API_KEY, BASE_TEXT
+from config import GUILD, TOKEN, CHARACTER_TAGS, GEMINI_API_KEY
+from _utils.chatbot import BASE_TEXT
 from firebase_admin import credentials, firestore, initialize_app
 from _utils.Calendar import Calendar
 from discord.ext.commands import has_permissions, MissingPermissions
